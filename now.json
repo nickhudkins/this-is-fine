@@ -1,0 +1,7 @@
+{
+  "env": {
+    "GITHUB_PRIVATE_KEY": "@pogs-cert",
+    "APP_ID": "6772",
+    "WEBHOOK_SECRET": "octocat"
+  }
+}

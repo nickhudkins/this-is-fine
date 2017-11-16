@@ -1,0 +1,16 @@
+{
+  "name": "pogs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "add-cert": "now secrets add pogs-cert $(cat pogs.2017-11-15.private-key.pem | base64)"
+  },
+  "dependencies": {
+    "github": "^12.0.2",
+    "github-app": "^3.2.0",
+    "github-webhook-handler": "^0.7.0"
+  }
+}
