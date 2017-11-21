@@ -10,7 +10,7 @@ function createStatus(github, event, status) {
       Object.assign(baseData, {
         state: status,
         description: msg,
-        context: CONTEXT_NAME,
+        context: CONTEXT_NAE,
       }),
     );
   };
